@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Se Liga Segredos do Nordeste | Produtos típicos direto da fazenda</title>
+  <meta name="description" content="Produtos típicos nordestinos direto da fazenda: queijo coalho, linguiça temperada, mortadela artesanal e muito mais.">
+  <meta name="keywords" content="produtos nordestinos, queijo coalho, linguiça, mortadela, temperos, Jaboatão, Pernambuco">
+  <meta name="author" content="Se Liga Segredos do Nordeste">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cor-principal: #c0392b;
+      --cor-secundaria: #ffe6cc;
+      --cor-fundo: #fff8f0;
+      --cor-texto: #333;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: var(--cor-fundo);
+      color: var(--cor-texto);
+    }
+
+    header {
+      background: var(--cor-principal);
+      color: white;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+    header p strong {
+      font-size: 1.3em;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .redes-topo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      background: #ffe6cc;
+      padding: 15px;
+    }
+
+    .redes-topo a {
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      flex: 1 1 150px;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    .whatsapp { background: #25D366; }
+    .instagram { background: #E1306C; }
+    .facebook { background: #3b5998; }
+
+    .redes-topo a:hover {
+      opacity: 0.85;
+    }
+
+    .imagem-topo {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    section {
+      padding: 30px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    h2 {
+      color: var(--cor-principal);
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .produto {
+      background: var(--cor-secundaria);
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1 1 220px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .produto:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 0.95em;
+    }
+
+    footer a {
+      color: var(--cor-principal);
+      text-decoration: none;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .produtos {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .produto {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .imagem-topo {
+        max-height: 250px;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Segredos do Nordeste</h1>
+    <p><strong>Mais que frios e laticínios, alma e raiz nordestina.</strong></p>
+    <p><em>DIRETO DA FAZENDA</em></p>
+  </header>
+
+  <div class="redes-topo">
+    <a href="https://wa.me/5581999999999" target="_blank" class="whatsapp">📱 WhatsApp</a>
+    <a href="https://www.instagram.com/segredosdonordeste" target="_blank" class="instagram">📸 Instagram</a>
+    <a href="https://www.facebook.com/segredosdonordeste" target="_blank" class="facebook">📘 Facebook</a>
+  </div>
+
+  <img src="imagens/banner.jpg" alt="Mesa com produtos típicos nordestinos como queijo coalho e linguiça artesanal" class="imagem-topo" />
+
+  <section>
+    <h2>🌶️ Quem Somos</h2>
+    <p>Somos apaixonados pela cultura e pelos sabores do Nordeste. Trabalhamos exclusivamente com produtos típicos como queijo coalho, linguiça temperada, salsichas artesanais, mortadelas regionais e temperos que fazem parte da alma nordestina.</p>
+  </section>
+
+  <section>
+    <h2>🧀 Nossos Produtos</h2>
+    <div class="produtos">
+      <div class="produto"><strong>Queijo Coalho</strong><br>Tradicional, ideal para churrasco</div>
+      <div class="produto"><strong>Linguiça Temperada</strong><br>Com ervas e pimenta do reino</div>
+      <div class="produto"><strong>Mortadela Artesanal</strong><br>Feita com receita regional</div>
+      <div class="produto"><strong>Temperos Nordestinos</strong><br>Colorau, cominho, pimenta de cheiro</div>
+      <div class="produto"><strong>Salsichas Caseiras</strong><br>Com sabor e textura únicos</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🌾 Nossa Missão</h2>
+    <p>Valorizar os sabores do Nordeste, apoiar produtores locais e levar qualidade e tradição para todo o Brasil.</p>
+  </section>
+
+  <section>
+    <h2>📍 Onde Estamos</h2>
+    <p>Av. Leonardo da Vinci, 431 – Curado II, Jaboatão dos Guararapes – PE</p>
+    <p>
+      <a href="https://www.google.com/maps?q=Av.+Leonardo+da+Vinci,+431,+Curado+II,+Jaboatão+dos+Guararapes" target="_blank">
+        📍 Ver no Google Maps
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p><strong>Endereço:</strong> Av. Leonardo da Vinci, 431 – Curado II, Jaboatão dos Guararapes – PE</p>
+    <p>© 2025 Segredos do Nordeste | Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
